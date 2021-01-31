@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PieChartActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:text="123"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:onClick="click"/>
+    <com.convert.mypiechart.PieChartView
+        android:id="@+id/pcView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:progressWidth="10dp"
+        app:progressColor="#fe0fef"
+        app:sweepAngle="123"
+        android:background="@color/black"/>
+</LinearLayout>

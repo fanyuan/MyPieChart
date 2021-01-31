@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progressWidth" format="dimension"></attr>
+    <attr name="progressColor" format="color"></attr>
+<!--    <attr name="sweepAngle" format="integer"></attr>-->
+    <declare-styleable name="PieChartView">
+        <attr name="progressWidth" /><!--  圆环宽度  -->
+        <attr name="progressColor"/> <!--  圆环和饼图颜色  -->
+        <attr name="sweepAngle" format="integer"/><!--  扇形旋转角度  -->
+    </declare-styleable>
+</resources>
